@@ -13,7 +13,7 @@ class CashRegister
       CashRegister.new(discount)
     end
 
-    def discount(discount)
-      @discount = discount
+    def discount
+      @discount = 20
     end
 end
