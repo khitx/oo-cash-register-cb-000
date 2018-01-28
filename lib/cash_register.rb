@@ -12,4 +12,8 @@ class CashRegister
     def cash_register_with_discount(discount)
       CashRegister.new(discount)
     end
+
+    def discount(discount)
+      
+    end
 end
