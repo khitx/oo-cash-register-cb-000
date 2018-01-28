@@ -24,5 +24,6 @@ class CashRegister
 
     def apply_discount
       @discount > 0 ? @total *= (1 - @discount.fdiv(100)) : @total
+      "After the discount, the total comes to $#{@total}."
     end
 end
