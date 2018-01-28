@@ -22,6 +22,6 @@ class CashRegister
     end
 
     def apply_discount
-      @discount ? @total *= (@discount.fdiv(100)) : @total
+      @discount ? @total *= (1 - @discount.fdiv(100)) : @total
     end
 end
